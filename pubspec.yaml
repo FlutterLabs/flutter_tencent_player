@@ -19,11 +19,46 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  flutter_localizations:
+    sdk: flutter
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.3
+  # 应用包信息
+  package_info: ^0.4.0+14
+  # 设备信息
+  device_info: ^0.4.1+5
+  # 网络信息
+  connectivity: ^0.4.8+1
+  # 电池信息
+  battery: ^0.3.1+8
+  # 轻量级数据存储（kv存储）
+  shared_preferences: ^0.5.6+2
+  # 文件管理
+  path_provider: ^1.6.5
+  # 权限管理
+  permission_handler: ^4.2.0+hotfix.3
+  # 状态管理库
+  provider: ^4.0.4
+  # 全局事件总线
+  event_bus: ^1.1.1
+  # 加密库，SHA-1，SHA-224，SHA-256，SHA-384，SHA-512，MD5，HMAC (i.e. HMAC-MD5, HMAC-SHA1, HMAC-SHA256)
+  crypto: any
+  # 打开第三方应用，包含系统sms，call
+  url_launcher: ^5.4.2
+  # 屏幕适配方案
+  flutter_screenutil: ^1.0.2
+  # 下拉刷新
+  pull_to_refresh: ^1.5.8
+  # toast插件
+  fluttertoast: ^3.1.3
+  # 加载层
+  flutter_svprogresshud: ^0.0.3
+  # webView插件
+  flutter_webview_plugin: ^0.3.10+1
+  # 网络图片缓存
+  cached_network_image: ^2.0.0
 
 dev_dependencies:
   flutter_test:

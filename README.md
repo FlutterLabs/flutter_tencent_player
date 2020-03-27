@@ -1,6 +1,6 @@
-# fluttertencentplayer
+# Flutter仿腾讯视频
 
-A new Flutter application.
+Flutter仿腾讯视频
 
 ## Getting Started
 
